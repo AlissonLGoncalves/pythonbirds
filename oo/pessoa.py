@@ -18,3 +18,7 @@ if __name__ == '__main__':
     print(edivaldo.idade)
     for filho in edivaldo.filhos:
         print(filho.nome)
+    edivaldo.sobrenome = 'Gonçalves'
+    del edivaldo.filhos
+    print(edivaldo.__dict__)
+    print(alisson.__dict__)
